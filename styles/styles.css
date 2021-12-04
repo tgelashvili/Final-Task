@@ -173,12 +173,14 @@
     align-items: center;
     padding-top: 135px;
     margin: 0;
+    justify-content: center;
+    max-width: 1500px;
 }
 .my-info{
-    max-width: 313px;
-    width: 100%;
+    width: 350px;
     direction: rtl;
     padding-top: 83px;
+    margin: 0;
 }
 .my-info button{
     padding: 13px 40px 17px 50px;
@@ -210,6 +212,7 @@
 
 .slider {
     margin: 0;
+    padding-left: 60px;
 }
 
 /* progress bar */
@@ -306,39 +309,64 @@ h3 span{
 }
 
 /* my skils  */
-.my-skills {
-    background-color: white;
+  .services {
+    margin: 200px 0 160px;
     display: flex;
+    justify-content: center;
 }
 
-.front-service {
-    max-width: 285px;
-    width: 100%;
-    height: 360px;
-    background-color: #FAFAFA;
-    align-content: center;
-    font-family: 'Bold';
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.active .front-service:hover {
-    background-color: #fcdfdf;
-}
-
-.services {
+.flip-card-inner {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    max-width: 1200px;
 }
 
-.back-service {
-    max-width: 285px;
+.flip-card {
+    width: 285px;
     height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #FAFAFA;
-    display: none;
-    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 10px 10px;
 }
 
-.back-service p {
+.flip-card:hover .flip-card-back,
+.flip-card:active .flip-card-back{
+    opacity: 1;
+}
+
+.flip-card-back {
+    opacity: 0;
+    position: absolute;
+    width: 285px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #15263E;
+}
+.flip-card-back h3 {
+    font-size: 22px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Bold';
+    padding-top: 30px;
+}
+.flip-card-back p {
+    margin-top: 19px!important;
+    color: #ECECEC;
+    text-align: center!important;
+    width: 80%;
     font-family: 'Muli';
 }
+.flip-card h3 {
+    padding-top: 30px;
+}
+
+/* feedback section */

@@ -69,21 +69,22 @@ window.addEventListener("scroll", () => {
 
 // skills section 
 
-var acc = document.getElementsByClassName("front-service");
-var i;
+// var acc = document.getElementsByClassName("front-service");
+// var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("mouseenter", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
+// for (i = 0; i < acc.length; i++) {
+//   acc[i].addEventListener("mouseenter", function() {
+//     /* Toggle between adding and removing the "active" class,
+//     to highlight the button that controls the panel */
+//     this.classList.toggle("active");
 
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
+//     /* Toggle between hiding and showing the active panel */
+//     var panel = this.nextElementSibling;
+//     if (panel.style.display === "block") {
+//       panel.style.display = "none";
+//     } else {
+//       panel.style.display = "block";
+//       document.getElementsByClassName(front-service).style.display="none";
+//     }
+//   });
+// }
