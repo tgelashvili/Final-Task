@@ -370,3 +370,63 @@ h3 span{
 }
 
 /* feedback section */
+
+.feedback {
+    background-image: url('images/background.png');
+    display: flex;
+    height: 570px;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-slider {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.feedback-slider p{
+    font-family: 'Roboto-Light';
+    font-size: 15px;
+    color: #FFFFFF;
+    max-width: 500px;
+    direction: rtl;
+}
+
+.feedback-slider h6{
+    font-family: 'Roboto-Regular';
+    font-size: 13px;
+    color: #E93656;
+}
+
+.feedback-slider h3 {
+	font-family: 'Bold';
+    font-size: 28px;
+    color: #FFFFFF;
+}
+
+.feedback-slider i{
+    color: white;
+}
+
+.feedback-slider span{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    display: inline-block;
+    border: 2px dashed white;
+    text-align: center;
+    padding: 17px;
+}
+
+.feedback-slider img {
+    size: 100px;
+}
+
+.feedback-content {
+    display: block;
+}
+
+/* .feedback-slider-dot-bar{
+    display: flex;
+} */
