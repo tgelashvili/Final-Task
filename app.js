@@ -88,3 +88,32 @@ window.addEventListener("scroll", () => {
 //     }
 //   });
 // }
+
+
+
+// feedback slider
+
+let feedbackSlideIndex = 1;
+mySlides(feedbackSlideIndex);
+
+function plusSlides(n) {
+	mySlides(feedbackSlideIndex += n);
+}
+function currentSlider(n) {
+	mySlides(feedbackSlideIndex = n);
+}
+function mySlides(n) {
+	let i;
+	let x = document.getElementsByClassName("feedback-slider");
+	let y = document.getElementsByClassName("feedback-dots");
+	if (n > x.length) { feedbackSlideIndex = 1 }
+	if (n < 1) { feedbackSlideIndex = x.length }
+	for (i = 0; i < x.length; i++) {
+		x[i].style.display = "none";
+	}
+
+	x[feedbackSlideIndex - 1].style.display = "flex";
+	y[feedbackSlideIndex - 1].className += " active";
+}
+
+
