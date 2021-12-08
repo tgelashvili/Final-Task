@@ -113,7 +113,44 @@ function mySlides(n) {
 	}
 
 	x[feedbackSlideIndex - 1].style.display = "flex";
-	// y[feedbackSlideIndex - 1].className += " passive";
+}
+
+
+// my projects filter
+
+filterObjects("all");
+
+function filterObjects(c){
+	var z, i; 
+	z = document.getElementsByClassName("box");
+	if (c == "all") c = "";
+	for (i = 0; i < z.length; i++) {
+		removeClass (z[i], "show");
+		if (z[i].className.indexOf(c) > -1) addClass(z[i], "show");
+	}
+}
+
+function addClass(element, name){
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++){
+		if (arr1.indexOf(arr2[i]) == -1){
+			element.className += " " + arr2[i];
+		}
+	}
+}
+
+function removeClass(element, name){
+	var i, arr1, arr2;
+	arr1 = element.className.split(" ");
+	arr2 = name.split(" ");
+	for (i = 0; i < arr2.length; i++){
+		while (arr1.indexOf(arr2[i]) > -1){
+			arr1.splice(arr1.indexOf(arr2[i]), 1);
+		}
+	}
+	element.className = arr1.join(" ");
 }
 
 
