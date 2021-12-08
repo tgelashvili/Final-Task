@@ -363,7 +363,8 @@ h3 span{
 
 /* feedback section */
 .feedback {
-    background: url('/images/background.png');
+    background-image: url('/images/clip.jpg');
+    filter: opacity(100%);
     display: flex;
     height: 570px;
     justify-content: center;
@@ -411,9 +412,9 @@ h3 span{
 .feedback-content {
     display: block;
 }
-.feedback-slider-dot-bar{
+/* .feedback-slider-dot-bar{
     margin: 10px; 
-}
+} */
 .feedback-dots{
     cursor: pointer;
     border: 2px solid white;
@@ -441,9 +442,9 @@ h3 span{
     float: left;
     height: 350px;
     width: 300px;
-    margin: 10px;
+    margin: 0 10px 10px;
     display: none;
-    background-color: #15263E;
+    background-color: #555555;
 }
 
 .box span{
@@ -453,7 +454,13 @@ h3 span{
 }
 
 .box i{
+    display: block;
     color: white;
+    text-align: center;
+    padding: 105px 0 17px;
+}
+.box i:hover{
+    color: #E93656;
 }
 
 .project-name{
