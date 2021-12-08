@@ -113,7 +113,7 @@ function mySlides(n) {
 	}
 
 	x[feedbackSlideIndex - 1].style.display = "flex";
-	y[feedbackSlideIndex - 1].className += " active";
+	// y[feedbackSlideIndex - 1].className += " passive";
 }
 
 
