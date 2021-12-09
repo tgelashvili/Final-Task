@@ -328,10 +328,7 @@ h3 span{
     border: 1px solid rgba(0, 0, 0, 0.1);
     margin: 0 0 10px 10px;
 }
-.flip-card:hover .flip-card-back,
-.flip-card:active .flip-card-back{
-    opacity: 1;
-}
+
 .flip-card-back {
     opacity: 0;
     position: absolute;
@@ -359,6 +356,11 @@ h3 span{
 }
 .flip-card h3 {
     padding-top: 30px;
+}
+
+.flip-card:hover .flip-card-back,
+.flip-card:active .flip-card-back{
+    opacity: 1;
 }
 
 /* feedback section */
@@ -440,11 +442,14 @@ h3 span{
 
 .box {
     float: left;
+    position: relative;
     height: 350px;
     width: 300px;
-    margin: 0 10px 10px;
     display: none;
     background-color: #555555;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 0 10px 10px;
+    text-align: center;
 }
 
 .box span{
@@ -494,3 +499,50 @@ h3 span{
 .btn:hover{
     background-color: #E93656;
 }
+
+
+/* back side card flip  */
+
+.box-back{
+    opacity: 0;
+    position: absolute;
+    background-color: #15263E;
+    float: left;
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* margin: 0 0 10px 10px; */
+    text-align: center;
+    margin-top: -67%;
+
+}
+
+
+.box-back span{
+    font-family: 'Bold';
+    font-size: 23px;
+    color: black;
+}
+
+.box-back i{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 105px 0 17px;
+}
+.box-back work ideas i:hover{
+    color: #E93656;
+}
+
+
+.box:hover .box-back,
+.box:active .box-back{
+    opacity: 1;
+}
+
+
+/* 
+.flip-card:hover .flip-card-back,
+.flip-card:active .flip-card-back{
+    opacity: 1;
+} */
