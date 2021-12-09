@@ -366,6 +366,7 @@ h3 span{
 /* feedback section */
 .feedback {
     background-image: url('/images/clip.jpg');
+    background: url("/images/clip.jpg");
     display: flex;
     height: 570px;
     justify-content: center;
