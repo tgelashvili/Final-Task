@@ -618,3 +618,55 @@ h3 span{
     position: absolute;
 }
 
+/* contact us form */
+
+.contact-us {
+    background-image: url(/images/mapbackground.jpeg);
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    max-width: 1140px;
+    width: auto;
+    text-align: center;
+    margin-top: 195px;
+}
+.contact-us-mainTitle h3{
+    font-family: 'Jaapokki';
+    color: white;
+    font-size: 45px;
+    padding: 12px;
+    padding-top: 152px;
+}
+.contact-us-mainTitle span{
+    font-family: 'Roboto-Light';
+    color: white;
+    font-size: 17px;
+}
+.contact-us-mainTitle{
+    margin-bottom: 46px;
+}
+input[type=text], select, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: horizontal;
+}
+input[type=submit] {
+    background-color: transparent;
+    color: #E93656;
+    padding: 12px 20px;
+    border: 2px solid #E93656;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+input[type=submit]:hover {
+  background-color: #E93656;
+}
+textarea{
+    display: block;
+    width: 500px;
+}
