@@ -439,13 +439,11 @@ h3 span{
 .projects{
     padding-top: 114px;
 }
-
 .my-projects{
     display: flex;
     max-width: 1200px;
     padding-top: 55px;
 }
-
 .box {
     float: left;
     position: relative;
@@ -457,13 +455,11 @@ h3 span{
     margin: 0 0 10px 10px;
     text-align: center;
 }
-
 .box span{
     font-family: 'Bold';
     font-size: 23px;
     color: white;
 }
-
 .box i{
     display: block;
     color: white;
@@ -473,14 +469,12 @@ h3 span{
 .box i:hover{
     color: #E93656;
 }
-
 .project-name{
     font-family: 'Bold';
     font-size: 70px;
     color: #2E2E2E;
     text-align: center;
 }
-
 .project-side-bar{
     background-color: #15263E;
     color: white;
@@ -490,7 +484,6 @@ h3 span{
 .show{
     display: block;
 }
-
 .btn{
     display: block;
     border: none;
@@ -520,16 +513,12 @@ h3 span{
     /* margin: 0 0 10px 10px; */
     text-align: center;
     margin-top: -67%;
-
 }
-
-
 .box-back span{
     font-family: 'Bold';
     font-size: 23px;
     color: black;
 }
-
 .box-back i{
     display: block;
     color: black;
@@ -539,8 +528,6 @@ h3 span{
 .box-back work ideas i:hover{
     color: #E93656;
 }
-
-
 .box:hover .box-back,
 .box:active .box-back{
     opacity: 1;
@@ -549,12 +536,19 @@ h3 span{
 
 /* articles - rosa team  */
 
+.articles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+}
+
 .rosaTitle span {
     color: #2ED279;
     font-size: 14px;
     font-family: "Bold";
 }
-.rosaSubTitle h2 {
+.rosaarticles-main-title h2 {
     color: #262526;
     font-size: 70px;
     font-family: "Bold";
@@ -618,30 +612,117 @@ h3 span{
     position: absolute;
 }
 
+
+
+
+/* article part */
+.articles{
+    margin-top: 170px;
+}
+
+.articles-section{
+    display: flex;
+}
+.articles-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 57px;
+}
+.articles-main-title span {
+    color: #2ED279;
+    font-size: 13px;
+    font-family: 'Bold';
+}
+.articles-title h2 {
+    color: #2E2E2E;
+    font-size: 70px;
+    font-family: 'Bold';
+    text-align: center;
+}
+.articles-section {
+    background-color: #FAFAFA;
+}
+.articles-first i {
+    margin: 30px 0;
+}
+.articles-first img {
+    border-radius: 50%;
+    padding: 20px 25px;
+    background-color: antiquewhite;
+}
+.articleLogo i {
+    margin: 30px 0;
+}
+.articles-text {
+    margin-left: 57.6px;
+    width: 41.5%;
+    margin-top: 30px;
+}
+.articleText span {
+    font-family: 'Muli-Regular';
+    font-size: 14px;
+    color: #888888;
+}
+.articleText h3 {
+    font-family: 'Bold';
+    font-size: 40px;
+    margin: 5 0 29px;
+    color: #161616;
+}
+.articleText p {
+	font-family: 'Muli';
+    font-size: 16px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.articles-image img {
+    width: 100%;
+    height: 100%;
+}
+.flexReverse {
+    flex-direction: row-reverse;
+}
+.articles-date {
+    background-color: #15263E;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    width: 11%;
+}
+.articles-date span{
+    font-size: 30px;
+    transform: rotate(270deg);
+    font-family: 'Bold';
+    font-size: 30px;
+    color: #E93656;
+}
+
+
 /* contact us form */
 
 .contact-us {
     background-image: url(../images/mapbackground.jpeg);
     background-color: cadetblue;
     background-repeat: no-repeat;
-    max-width: 1140px;
     width: auto;
     text-align: center;
     margin-top: 195px;
 }
-.contact-us-mainTitle h3{
+.contact-us-articles-title h3{
     font-family: 'Jaapokki';
     color: white;
     font-size: 45px;
     padding: 12px;
     padding-top: 152px;
 }
-.contact-us-mainTitle span{
+.contact-us-articles-title span{
     font-family: 'Roboto-Light';
     color: white;
     font-size: 17px;
 }
-.contact-us-mainTitle{
+.contact-us-articles-title{
     margin-bottom: 46px;
 }
 input[type=text], select, textarea {
@@ -669,5 +750,11 @@ input[type=submit]:hover {
 }
 textarea{
     display: block;
-    width: 500px;
+    width: 508px;
+}
+.contact-us-articles-title h3:hover{
+    color: #E93656;
+}
+.contact-us-articles-title span:hover{
+    color: #E93656;;
 }
