@@ -758,3 +758,68 @@ textarea{
 .contact-us-articles-title span:hover{
     color: #E93656;;
 }
+
+
+/* footer */
+
+
+.footer-text p {
+    font-family: 'Poppins-ExtraBold';
+    font-size: 55.42px;
+    color: #FFFFFF;
+    display: inline-block;
+}
+footer {
+    background-color: #282828;
+}
+.footer-color-text {
+    font-family: 'Poppins-ExtraBold';
+    font-size: 45.72px;
+    color: #E93656;
+
+}
+
+.footer-body {
+    justify-content: center;
+    text-align: center;    
+    height: 490px;
+}
+.footer-text {
+    padding-top: 110.73px;
+}
+.loremi {
+    font-family: 'Roboto-Regular';
+    font-size: 17px;
+    color: #A5A5A5;
+    width: 613px;
+    /* padding-bottom: 60px; */
+    display: inline-block;
+    padding-top: 22.23px;
+    padding-bottom: 29px;
+}
+
+.footer-tq p {
+    background-color: #171717;
+    font-family: 'Muli';
+    font-size: 15px;
+    color: #A0A8B7;
+    height: 82px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-logo a {
+    color: #E93656;;
+    margin: 0;
+    padding-left: 10px;
+    font-weight: none;
+    justify-content: space-between;
+    size: 17px;
+}
+.footer-tq {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
