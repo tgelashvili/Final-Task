@@ -770,7 +770,7 @@ textarea{
     display: inline-block;
 }
 footer {
-    background-color: #282828;
+    background-color: #415471;
 }
 .footer-color-text {
     font-family: 'Poppins-ExtraBold';
@@ -792,14 +792,12 @@ footer {
     font-size: 17px;
     color: #A5A5A5;
     width: 613px;
-    /* padding-bottom: 60px; */
-    display: inline-block;
     padding-top: 22.23px;
     padding-bottom: 29px;
 }
 
 .footer-tq p {
-    background-color: #171717;
+    background-color: #283344;
     font-family: 'Muli';
     font-size: 15px;
     color: #A0A8B7;
