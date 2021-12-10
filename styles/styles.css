@@ -621,7 +621,7 @@ h3 span{
 /* contact us form */
 
 .contact-us {
-    background-image: url(/images/mapbackground.JPEG);
+    background-image: url("/images/mapbackground.JPEG");
     background-color: cadetblue;
     background-repeat: no-repeat;
     max-width: 1140px;
