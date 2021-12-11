@@ -1,6 +1,10 @@
 
 /* // Small */
 @media (max-width: 576px) {
+
+    .about-me{
+        padding-top: 10px;
+    }
     .box{
         height: 200px;
         width: 200px;
@@ -24,6 +28,17 @@
         display: flex;
         margin: 30px;
     }
+    .flip-card{
+        height: 150px;
+    }
+    .flip-card-back{
+        width: 150px;
+        height: 150px;
+    }
+    .flip-card-back p{
+    font-size: 10px;
+    }
+
 }
 /* // Medium */
 @media (max-width: 768px) {
@@ -42,7 +57,7 @@
     }
     .slider img{
         width: 80%;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     .my-info {
         font-weight: 80%;
