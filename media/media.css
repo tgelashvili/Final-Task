@@ -31,12 +31,12 @@
         flex-wrap: wrap;
         margin-top: 20px;
     }
-    .my-info{
-        /* margin:20px 10px; */
+    /* .my-info{
+        margin:20px 10px;
         margin: 10% 10%;
-    }
-    .slider img{
-        padding: 10px;
+    } */
+    .slider {
+        padding: 10px 0;
     }
     .flip-card{
         width: 120px;
