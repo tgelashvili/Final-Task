@@ -64,16 +64,33 @@
     .articles-date span{
         font-size: 15px
     }
-    
-    #subject{
+    .articles-text {
+        margin-left: 10px;
+    }
+    #subject {
         width: 290px;
     }
 }
+
 /* // Medium */
 @media (max-width: 768px) {
+    .container{
+        max-width: 760px;
+        width: 100%;
+    }
     .about-me{
+        display: block;
         padding-top: 10px;
     }
+    .my-info{
+        display: block;
+        text-align: center;
+        direction: unset;
+    }
+    .my-progress{
+        display: none;
+    }
+
     .services{
         margin: 10px 0 10px; 
     }
