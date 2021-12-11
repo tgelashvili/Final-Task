@@ -26,10 +26,25 @@
     .address{
         display: none;
     }
-    .contact span{
-        display: flex;
-        margin: 20px;
+    .item5{
+        display: none;
     }
+    .contact span {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+        max-width: 300px;
+        width: 100%;
+    }
+    .contact-information{
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    #magic{
+        display: none;
+    }
+
     .flip-card{
         width: 120px;
         height: 150px;
