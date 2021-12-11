@@ -40,7 +40,13 @@
         flex-wrap: wrap;
         margin-top: 20px;
     }
-
+    .my-info{
+        /* margin:20px 10px; */
+        margin: 10% 10%;
+    }
+    .slider{
+        padding: 10px;
+    }
     #magic{
         display: none;
     }
