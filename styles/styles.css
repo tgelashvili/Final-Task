@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .container {
-    max-width: 1500px;
+    max-width: 1400px;
     width: 100%;
 }
 /* first section */
@@ -133,7 +133,7 @@
     padding-top: 135px;
     margin: 0;
     justify-content: center;
-    max-width: 1500px;
+    max-width: 1400px;
 }
 .my-info{
     width: 350px;
@@ -488,7 +488,7 @@ h3 span{
     display: block;
     border: none;
     outline: none;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     padding: 12px 16px;
     background-color: #15263E;
     cursor: pointer;
@@ -535,12 +535,15 @@ h3 span{
 
 
 /* articles - rosa team  */
-
 .articles{
+    display: block;
+}
+
+.articles-container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 3vh;
+    margin-bottom: 50px;
 }
 
 .rosaTitle span {
@@ -555,12 +558,9 @@ h3 span{
     text-align: center;
 }
 .rosaTeam {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-bottom: 57px;
     margin-top: 96px;
-
 }
 
 .mainBlock {

@@ -1,0 +1,81 @@
+
+/* // Small */
+@media (max-width: 576px) {
+}
+/* // Medium */
+@media (max-width: 768px) {
+}
+/* // Large  */
+@media (max-width: 990px) {
+    .item1, .item4 {
+        display: none;
+    }
+    .grid-container {
+        max-width: 100%;
+        align-content: center;
+    }
+    .my-progress{
+        display: none;
+        /* padding-left: 10px; */
+    }
+    .slider img{
+        width: 80%;
+        padding-left: 10px;
+    }
+    .my-info {
+        font-weight: 80%;
+    }
+    .circle{
+        display: none;
+    }
+    .flip-card{
+        width: 200px;
+    }
+    .flip-card-back{
+        width: 200px;
+    }
+    .feedback{
+        width: auto;
+        height: 500px;
+    }
+    .feedback span{
+        display: none;
+    }
+    .project-side-bar{
+        display: flex;
+    }
+    .objects{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .my-projects{
+        display: block;
+    }
+    .project-side-bar{
+        width: auto;
+    }
+
+    .box{
+        float: none;
+    }
+    .box-back{
+        float: none;
+    }
+
+    .articles-body img{
+        display: none;
+    }
+    .articles-text{
+        width: 80%;
+        margin-bottom: 15px;
+
+    }
+    .articles-section{
+        margin-bottom: 10px;
+    }
+    .mainBlock {
+        flex-wrap: wrap;
+    }
+}
