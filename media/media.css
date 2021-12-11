@@ -6,6 +6,9 @@
     }
     .about-me{
         padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
     .box{
         height: 200px;
@@ -14,19 +17,7 @@
     .box i{
         padding: 20px;
     }
-    .box-back{
-        display: none;
-    }
-    .phone{
-        display: none;
-    }
-    .email{
-        display: none;
-    }
-    .address{
-        display: none;
-    }
-    .item5{
+    .box-back, .phone, .email, .address, .item5, #magic{
         display: none;
     }
     .contact span {
@@ -44,13 +35,9 @@
         /* margin:20px 10px; */
         margin: 10% 10%;
     }
-    .slider{
+    .slider img{
         padding: 10px;
     }
-    #magic{
-        display: none;
-    }
-
     .flip-card{
         width: 120px;
         height: 150px;
@@ -99,19 +86,25 @@
         max-width: 760px;
         width: 100%;
     }
-    .about-me{
+    /* .about-me{
         display: block;
+        padding-top: 10px;
+    } */
+    .about-me{
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
         padding-top: 10px;
     }
     .my-info{
         display: block;
         text-align: center;
-        direction: unset;
+        padding: 20px 0;
     }
     .my-progress{
         display: none;
     }
-
     .services{
         margin: 10px 0 10px; 
     }
@@ -143,10 +136,6 @@
     }
     .slider img{
         width: 80%;
-        /* padding-left: 10px; */
-    }
-    .my-info {
-        font-weight: 80%;
     }
     .phone{
         display: none;
@@ -185,7 +174,6 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .my-projects{
         display: block;
     }
