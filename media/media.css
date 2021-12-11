@@ -1,5 +1,9 @@
 /* // Small */
 @media (max-width: 576px) {
+    .container{
+        max-width: 570px;
+        width: 100%;
+    }
     .about-me{
         padding-top: 10px;
     }
@@ -56,6 +60,13 @@
         color: #626262;
         font-family: "Roboto-Light";
         font-size: 8px;
+    }
+    .articles-date span{
+        font-size: 15px
+    }
+    
+    #subject{
+        width: 290px;
     }
 }
 /* // Medium */
