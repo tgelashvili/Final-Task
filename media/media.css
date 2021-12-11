@@ -1,4 +1,3 @@
-
 /* // Small */
 @media (max-width: 576px) {
     .about-me{
@@ -28,10 +27,11 @@
         margin: 20px;
     }
     .flip-card{
+        width: 120px;
         height: 150px;
     }
     .flip-card-back{
-        width: 150px;
+        width: 120px;
         height: 150px;
     }
     .flip-card-back p{
@@ -44,13 +44,44 @@
     .feedback-dots{
         margin: 5px;
     }
-
+    .project-side-bar{
+        flex-wrap: wrap;
+    }
+    .partnerBlock:hover,
+    .partnerBlock:active {
+        width: 100px;
+        height: 100px;
+    }
+    .mainBlockText span {
+        color: #626262;
+        font-family: "Roboto-Light";
+        font-size: 8px;
+    }
 }
 /* // Medium */
 @media (max-width: 768px) {
+    .about-me{
+        padding-top: 10px;
+    }
+    .services{
+        margin: 10px 0 10px; 
+    }
+    .projects{
+        padding-top: 40px;
+    }
+    .articles{
+        margin-top: 20px;
+    }
+    .rosaTeam{
+        margin-top: 30px;
+    }
+    .contact-us{
+        margin-top: 30px;
+    }
 }
+
 /* // Large  */
-@media (max-width: 990px) {
+@media (max-width: 996px) {
     .item1, .item4 {
         display: none;
     }
