@@ -1,6 +1,29 @@
 
 /* // Small */
 @media (max-width: 576px) {
+    .box{
+        height: 200px;
+        width: 200px;
+    }
+    .box i{
+        padding: 20px;
+    }
+    .box-back{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+    .email{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    .contact span{
+        display: flex;
+        margin: 30px;
+    }
 }
 /* // Medium */
 @media (max-width: 768px) {
@@ -16,7 +39,6 @@
     }
     .my-progress{
         display: none;
-        /* padding-left: 10px; */
     }
     .slider img{
         width: 80%;
@@ -25,9 +47,22 @@
     .my-info {
         font-weight: 80%;
     }
-    .circle{
+    .phone{
         display: none;
     }
+    .email{
+        display: none;
+    }
+    .address{
+        display: none;
+    }
+    .contact span{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px; 
+    }
+  
+
     .flip-card{
         width: 200px;
     }
@@ -43,6 +78,7 @@
     }
     .project-side-bar{
         display: flex;
+        width: auto;
     }
     .objects{
         display: flex;
@@ -53,24 +89,18 @@
     .my-projects{
         display: block;
     }
-    .project-side-bar{
-        width: auto;
-    }
-
     .box{
         float: none;
     }
     .box-back{
         float: none;
     }
-
     .articles-body img{
         display: none;
     }
     .articles-text{
         width: 80%;
         margin-bottom: 15px;
-
     }
     .articles-section{
         margin-bottom: 10px;
