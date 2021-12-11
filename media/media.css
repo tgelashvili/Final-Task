@@ -78,6 +78,9 @@
     #subject {
         width: 290px;
     }
+    .footer-text{
+        padding-top: 70px
+    }
 }
 
 /* // Medium */
